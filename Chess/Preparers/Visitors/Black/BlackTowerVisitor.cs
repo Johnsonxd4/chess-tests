@@ -1,4 +1,4 @@
-namespace Chess.Preparers.Visitors
+namespace Chess.Preparers.Visitors.Black
 {
     public class BlackTowerVisitor : IVisitor
     {

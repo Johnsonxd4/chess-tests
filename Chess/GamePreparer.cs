@@ -1,4 +1,4 @@
-using Chess.Preparers.Visitors;
+using Chess.Preparers.Visitors.Black;
 
 namespace Chess {
     public class GamePreparer {

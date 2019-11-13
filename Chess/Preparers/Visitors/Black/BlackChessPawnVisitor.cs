@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Chess.Preparers.Visitors
+namespace Chess.Preparers.Visitors.Black
 {
     public class BlackChessPawnVisitor : IVisitor
     {
@@ -16,5 +16,6 @@ namespace Chess.Preparers.Visitors
                 board.AddPosition(position);
             }
         }
+
     }
 }
