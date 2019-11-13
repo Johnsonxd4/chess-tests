@@ -80,5 +80,15 @@ namespace Chess.Tests
             var position = board.GetPieceOfPosition(0,3);
             Assert.IsType<King>(position);
         }
+
+        [Fact]
+        public void Should_create_new_board_with_one_queen_on_position_0_4()
+        {
+            var gamePreparer = new GamePreparer();
+            var board = gamePreparer.CreateAndPrepareBoard();
+
+            var position = board.GetPieceOfPosition(0,4);
+            Assert.IsType<Queen>(position);
+        }
     }
 }

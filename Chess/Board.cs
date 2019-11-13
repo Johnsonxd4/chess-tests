@@ -23,6 +23,8 @@ namespace Chess
 
         internal void AddPosition(Position position)
         {
+            if (Houses[position.X, position.Y] != null)
+                throw new InvalidOperationException("There's allready a piece on this position");
             Houses[position.X, position.Y] = position;
         }
     }
