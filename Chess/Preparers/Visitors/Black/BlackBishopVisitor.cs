@@ -6,7 +6,7 @@ namespace Chess.Preparers.Visitors.Black
         {
             var board = element as Board;
             var firstBishop = new Bishop(Color.Black);
-            var firstPosition = new Position(0, 3, firstBishop);
+            var firstPosition = new Position(0, 2, firstBishop);
             firstBishop.SetPosition(firstPosition);
 
             board.AddPosition(firstPosition);

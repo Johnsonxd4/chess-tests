@@ -1,0 +1,4 @@
+Chess/bin/**
+Chess/obj/**
+Chess.Tests/obj/**
+Chess.Tests/bin/**

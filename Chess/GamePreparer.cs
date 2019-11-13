@@ -7,6 +7,8 @@ namespace Chess {
                 board.Accept(new BlackTowerVisitor());
                 board.Accept(new BlackBishopVisitor());
                 board.Accept(new BlackChessPawnVisitor());
+                board.Accept(new BlackHorseVisitor());
+                board.Accept(new BlackKingVisitor());
                 return board;
         }
     }

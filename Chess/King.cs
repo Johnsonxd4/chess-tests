@@ -1,10 +1,10 @@
-namespace Chess
-{
-    public class Bishop : Piece, IPiece
+namespace Chess {
+    public class King : Piece, IPiece
     {
-        public Bishop(Color color) : base(color)
+        public King(Color color) : base(color)
         {
         }
+
         public void Move(Position position)
         {
             throw new System.NotImplementedException();

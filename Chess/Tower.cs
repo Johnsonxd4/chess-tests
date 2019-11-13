@@ -2,10 +2,8 @@ using System;
 
 namespace Chess
 {
-    public class Tower : MovementRule, IPiece
+    public class Tower : Piece, IPiece
     {
-        public Color Color { get; }
-
         internal override bool CanMove(Position position)
         {
             throw new System.NotImplementedException();
@@ -16,7 +14,7 @@ namespace Chess
             throw new System.NotImplementedException();
         }
 
-        public Tower(Color color)
+        public Tower(Color color) :base(color)
         {
             Color = color;
         }
